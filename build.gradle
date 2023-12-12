@@ -1,0 +1,16 @@
+plugins {
+    id('application')
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.springframework/spring-context
+    implementation 'org.springframework:spring-context:5.3.31'
+}
+
+application {
+    mainClass = 'app.App'
+}
